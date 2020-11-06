@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Product Database</title>
+</head>
+
+<body>
+	
+	<h1 >Please, fill in the blanks below to add the product on database.</h1>
+	<br><br>
+	
+	<div class="content">
+	
+		<form method="post" action="ImportProduct.do" id="carform" autocomplete="off">
+	  		<label for="Barcode"><b>Barcode</b></label>
+	  		<br>
+	  		<input style="color:rgb(74, 129, 169);" type="text" id="Barcode" name="Barcode" placeholder="Enter barcode here">
+	  		<br><br>
+	  		
+	  		<label for="Name"><b>Name</b></label>
+	  		<br>
+	  		<input style="color:rgb(74, 129, 169);" type="text" id="Name" name="Name" placeholder="Enter name here">
+	  		<br><br>
+	  		
+	  		<label for="Color"><b>Color</b></label>
+	  		<br>
+	  		<input style="color:rgb(74, 129, 169);" type="text" id="Color" name="Color" placeholder="Enter color here">
+	  		<br><br>
+	  		
+	  		<label for="Description"><b>Description</b></label>
+	  		<br>
+	  		<input style="color:rgb(74, 129, 169);" type="text" id="Description" name="Description" placeholder="Enter description here" >
+	  		<br><br>
+	  		
+	  		<input style="color:rgb(61, 70, 85);" type="submit" value="Import Product">
+		</form>
+	
+	</div>
+	
+</body>
+</html>
